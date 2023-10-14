@@ -1,5 +1,6 @@
 extends Node2D
 
+var msg:String = 'hello world'
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -12,5 +13,5 @@ func _process(delta):
 
 
 func _on_button_pressed():
-	print('hello world')
-	$TextEdit.text = 'hello world'
+	print(msg)
+	$TextEdit.text = msg

@@ -1,1 +1,1 @@
-# hello_gd
+# hello_gd 1.0
